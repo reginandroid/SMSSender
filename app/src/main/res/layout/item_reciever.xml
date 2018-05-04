@@ -7,24 +7,25 @@
               android:orientation="vertical">
 
     <CheckBox
+        android:id="@+id/checkBox"
+        style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+
         android:layout_width="0dp"
         android:layout_height="61dp"
-        android:text="CheckBox"
-        android:id="@+id/checkBox"
-        android:focusable="false"
-        android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintRight_toLeftOf="@+id/name"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="1dp"
+
         android:layout_marginEnd="2dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginLeft="1dp"
         android:layout_marginRight="2dp"
+        android:layout_marginStart="1dp"
+        android:focusable="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintHorizontal_bias="1.0"
-        tools:layout_constraintTop_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/name"
         app:layout_constraintTop_toTopOf="@+id/name"
-        />
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"/>
 
     <TextView
         android:id="@+id/phone"
